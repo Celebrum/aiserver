@@ -1,2 +1,1 @@
-# aiserver
-A repository for setting up Codium-AI PR-Agent and AI server
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
