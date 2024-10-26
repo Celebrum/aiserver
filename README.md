@@ -50,3 +50,126 @@ The AI server includes a hierarchical cognitive AI system that mimics the human 
 ## SIP Communication Mapping System
 
 The project includes a free SIP communication mapping system using multiple repositories for phone routing, API calls, and inventory management. The system converts SIP IP calls into SIP API calls with numerical value dependency activation. It includes a central inventory management system to classify and manage user data, including phone numbers, API values, and email addresses. The system ensures data privacy and security by creating encrypted orbs that store user secrets and can only be accessed within a secure environment.
+
+## File Tree Structure
+
+```
+C:.
+├───.idea
+├───automation
+│   ├───automatisation fetch inner knowledge datacenter
+│   ├───config_FfeD_dumpstats
+│   └───config_logs
+├───comunicationcenter
+├───config
+│   ├───automat fetch prehook
+│   ├───FfeD dumpstat
+│   ├───New folder
+│   └───web structure
+├───data_processing
+│   └───datasets
+├───documentation
+│   └───SeCuReDmE user story web structure
+├───models
+│   ├───CeLeBrUm
+│   ├───EbaAaZ
+│   ├───MindsDB
+│   ├───NeuUuR-o
+│   ├───ReaAaS-N
+│   └───SenNnT-i
+├───prefrontale datacenter
+│   ├───CeLeBrUm
+│   │   ├───behavioralregulation.socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   ├───empathy.socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───executivefunction.prefrontalcortex.brain.scrde.ca
+│   │   ├───inhibitorycontrol.executivefunction.prefrontalcortex.brain.scrde.ca
+│   │   ├───prefrontalcortex.brain.scrde.ca
+│   │   ├───prefrontalcortex.scrde.ca
+│   │   ├───riskassessment.decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   ├───socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───strategicplanning.decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   └───workingmemory.executivefunction.prefrontalcortex.brain.scrde.ca
+│   ├───EbaAaZ
+│   │   ├───behavioralregulation.socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   ├───empathy.socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───executivefunction.prefrontalcortex.brain.scrde.ca
+│   │   ├───inhibitorycontrol.executivefunction.prefrontalcortex.brain.scrde.ca
+│   │   ├───prefrontalcortex.brain.scrde.ca
+│   │   ├───prefrontalcortex.scrde.ca
+│   │   ├───riskassessment.decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   ├───socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───strategicplanning.decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   └───workingmemory.executivefunction.prefrontalcortex.brain.scrde.ca
+│   ├───NeuUuR-o
+│   │   ├───behavioralregulation.socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   ├───empathy.socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───executivefunction.prefrontalcortex.brain.scrde.ca
+│   │   ├───inhibitorycontrol.executivefunction.prefrontalcortex.brain.scrde.ca
+│   │   ├───prefrontalcortex.brain.scrde.ca
+│   │   ├───prefrontalcortex.scrde.ca
+│   │   ├───riskassessment.decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   ├───socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───strategicplanning.decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   └───workingmemory.executivefunction.prefrontalcortex.brain.scrde.ca
+│   ├───ReaAaS-n
+│   │   ├───behavioralregulation.socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   ├───empathy.socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───executivefunction.prefrontalcortex.brain.scrde.ca
+│   │   ├───inhibitorycontrol.executivefunction.prefrontalcortex.brain.scrde.ca
+│   │   ├───prefrontalcortex.brain.scrde.ca
+│   │   ├───prefrontalcortex.scrde.ca
+│   │   ├───riskassessment.decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   ├───socialcognition.prefrontalcortex.brain.scrde.ca
+│   │   ├───strategicplanning.decisionmaking.prefrontalcortex.brain.scrde.ca
+│   │   └───workingmemory.executivefunction.prefrontalcortex.brain.scrde.ca
+│   └───SenNnT-i
+│       ├───behavioralregulation.socialcognition.prefrontalcortex.brain.scrde.ca
+│       ├───Core persona
+│       ├───decisionmaking.prefrontalcortex.brain.scrde.ca
+│       ├───empathy.socialcognition.prefrontalcortex.brain.scrde.ca
+│       ├───executivefunction.prefrontalcortex.brain.scrde.ca
+│       ├───inhibitorycontrol.executivefunction.prefrontalcortex.brain.scrde.ca
+│       ├───prefrontalcortex.brain.scrde.ca
+│       ├───prefrontalcortex.scrde.ca
+│       ├───riskassessment.decisionmaking.prefrontalcortex.brain.scrde.ca
+│       ├───socialcognition.prefrontalcortex.brain.scrde.ca
+│       ├───strategicplanning.decisionmaking.prefrontalcortex.brain.scrde.ca
+│       └───workingmemory.executivefunction.prefrontalcortex.brain.scrde.ca
+├───SeCuReDmE_engine
+│   ├───automation
+│   ├───models
+│   │   ├───EbaAaZ
+│   │   ├───NeuUuR-o
+│   │   ├───ReaAaS-N
+│   │   └───SenNnT-i
+│   ├───prefrontale datacenter
+│   ├───SeCuReDmE_engine
+│   └───SeCuReDmE_Project
+│       ├───automation
+│       ├───models
+│       │   ├───EbaAaZ
+│       │   ├───NeuUuR-o
+│       │   ├───ReaAaS-N
+│       │   └───SenNnT-i
+│       ├───prefrontale datacenter
+│       └───SeCuReDmE_engine
+├───SeCuReDmE_project
+│   ├───.idea
+│   ├───out
+│   │   └───production
+│   │       └───SeCuReDmE_project
+│   └───src
+├───space-241.18968.26
+│   └───space
+│       └───lib
+├───Storage
+├───tools
+│   ├───Hydra-Electromagnetic_System
+│   ├───LHC_Collaboration
+│   └───Microprocessors_with_AI_Agents
+└───utils
+```
