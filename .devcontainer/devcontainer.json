@@ -1,0 +1,15 @@
+{
+  "name": "AI Server Codespace",
+  "dockerFile": "../Dockerfile",
+  "runArgs": ["--init"],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "python.pythonPath": "/opt/conda/envs/SeCuReDmE_env/bin/python"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-azuretools.vscode-docker"
+  ],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "remoteUser": "vscode"
+}
