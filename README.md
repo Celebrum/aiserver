@@ -155,7 +155,7 @@ C:.
 │       │   ├───NeuUuR-o
 │       │   ├───ReaAaS-N
 │       │   └───SenNnT-i
-│       ├───prefrontale datacenter
+│       ├───prefrontal datacenter
 │       └───SeCuReDmE_engine
 ├───SeCuReDmE_project
 │   ├───.idea
@@ -173,3 +173,25 @@ C:.
 │   └───Microprocessors_with_AI_Agents
 └───utils
 ```
+
+## Setup Instructions for Codespace Environment
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/aiserver.git
+   cd aiserver
+   ```
+
+2. Open the repository in a codespace:
+   ```bash
+   code .
+   ```
+
+3. The codespace environment will automatically use the `SeCuReDmE_env` conda environment as the interpreter.
+
+4. Start the AI server:
+   ```bash
+   docker-compose up
+   ```
+
+5. Access the AI server through the provided URL.

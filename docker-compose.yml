@@ -10,6 +10,8 @@ services:
       - ai_server_data:/data
     networks:
       - ai_network
+    environment:
+      - CONDA_ENV=SeCuReDmE_env
 
   ngrok:
     image: wernight/ngrok
