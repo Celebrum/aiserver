@@ -40,3 +40,30 @@ SIP_COMMUNICATION_SYSTEM = {
         'access': 'secure environment only'
     }
 }
+
+# AI hub Mind configuration
+AI_HUB_MIND = {
+    'database': {
+        'name': 'xxdu2672_ai_hub',
+        'user': 'xxdu2672_ai_hub',
+        'password': ']3y3p7C@oS',
+        'host': 'localhost'
+    }
+}
+
+# Human hub Mind configuration
+HUMAN_HUB_MIND = {
+    'database': {
+        'name': 'xxdu2672_human_hub',
+        'user': 'xxdu2672_human_hub',
+        'password': ')[jp3t5D7S',
+        'host': 'localhost'
+    }
+}
+
+# Minds connection configuration
+MINDS_CONNECTION = {
+    'api_key': 'mdb_1D1D5fjggIl5AjpWNB9ghDajZmzKdFq7HECGgqGPGutC',
+    'ai_hub_mind': AI_HUB_MIND,
+    'human_hub_mind': HUMAN_HUB_MIND
+}
