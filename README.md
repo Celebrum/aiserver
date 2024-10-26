@@ -50,3 +50,29 @@ The AI server includes a hierarchical cognitive AI system that mimics the human 
 ## SIP Communication Mapping System
 
 The project includes a free SIP communication mapping system using multiple repositories for phone routing, API calls, and inventory management. The system converts SIP IP calls into SIP API calls with numerical value dependency activation. It includes a central inventory management system to classify and manage user data, including phone numbers, API values, and email addresses. The system ensures data privacy and security by creating encrypted orbs that store user secrets and can only be accessed within a secure environment.
+
+## Setup Instructions for AI Hub and Human Hub Minds
+
+1. Configure the AI hub Mind:
+   * Use the database connection details provided for the AI hub:
+     * Database Name: `xxdu2672_ai_hub`
+     * Database User: `xxdu2672_ai_hub`
+     * Database Password: `]3y3p7C@oS`
+     * Database Host: `localhost`
+
+2. Configure the human hub Mind:
+   * Use the database connection details provided for the human hub:
+     * Database Name: `xxdu2672_human_hub`
+     * Database User: `xxdu2672_human_hub`
+     * Database Password: `)[jp3t5D7S`
+     * Database Host: `localhost`
+
+3. Connect the AI hub and human hub Minds:
+   * Use the Minds API to link the two Minds, allowing them to share and exchange information.
+   * Ensure that both Minds are configured to communicate with each other and the communication center.
+
+## Connecting the Minds to the Communication Center
+
+1. Use the Minds API to link the AI hub and human hub Minds to the communication center.
+2. Ensure that the Minds are configured to communicate with the communication center and share information seamlessly.
+3. Refer to the Minds API documentation for detailed instructions on how to set up and connect the Minds to the communication center.
